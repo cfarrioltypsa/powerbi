@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #BF1525;
+  height: 100vh;
+}
+
+.logout {
+  display: flex;
+  justify-content: flex-end;
+  button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: "Mulish";
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+}
+
